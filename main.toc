@@ -1,0 +1,9 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}Abstract}{2}
+\contentsline {section}{\numberline {2}Introduction}{2}
+\contentsline {section}{\numberline {3}Special Description}{2}
+\contentsline {section}{\numberline {4}Description of Symbol}{3}
+\contentsline {section}{\numberline {5}Modeling}{3}
+\contentsline {section}{\numberline {6}Temperature Distribution}{5}
+\contentsline {section}{\numberline {7}Dynamic Programming}{8}
+\contentsline {section}{\numberline {8}Error Analysis}{11}

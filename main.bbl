@@ -1,0 +1,48 @@
+\begin{thebibliography}{1}
+
+\bibitem{bertsekas2005dynamic}
+Dimitri~P Bertsekas, Dimitri~P Bertsekas, Dimitri~P Bertsekas, and Dimitri~P
+  Bertsekas.
+\newblock {\em Dynamic programming and optimal control}, volume~1.
+\newblock Athena scientific Belmont, MA, 2005.
+
+\bibitem{bevington1993data}
+Philip~R Bevington, D~Keith Robinson, J~Morris Blair, A~John Mallinckrodt, and
+  Susan McKay.
+\newblock Data reduction and error analysis for the physical sciences.
+\newblock {\em Computers in Physics}, 7(4):415--416, 1993.
+
+\bibitem{buchanan1962calculus}
+James~M Buchanan and Gordon Tullock.
+\newblock {\em The calculus of consent}, volume~3.
+\newblock University of Michigan Press Ann Arbor, 1962.
+
+\bibitem{callen1998thermodynamics}
+Herbert~B Callen.
+\newblock Thermodynamics and an introduction to thermostatistics, 1998.
+
+\bibitem{li2004fourier}
+Baowen Li, Giulio Casati, Jiao Wang, and Toma{\v{z}} Prosen.
+\newblock Fourier law in the alternate-mass hard-core potential chain.
+\newblock {\em Physical review letters}, 92(25):254301, 2004.
+
+\bibitem{sakoe1978dynamic}
+Hiroaki Sakoe and Seibi Chiba.
+\newblock Dynamic programming algorithm optimization for spoken word
+  recognition.
+\newblock {\em IEEE transactions on acoustics, speech, and signal processing},
+  26(1):43--49, 1978.
+
+\bibitem{taylor1997introduction}
+John Taylor.
+\newblock {\em Introduction to error analysis, the study of uncertainties in
+  physical measurements}.
+\newblock 1997.
+
+\bibitem{volz1996transient}
+Sebastian Volz, Jean-Bernard Saulnier, Michel Lallemand, Bernard Perrin,
+  Philippe Depondt, and Michel Mareschal.
+\newblock Transient fourier-law deviation by molecular dynamics in solid argon.
+\newblock {\em Physical review B}, 54(1):340, 1996.
+
+\end{thebibliography}
