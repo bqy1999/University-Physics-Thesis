@@ -16,8 +16,8 @@
 \setmarginsrb{3 cm}{2.5 cm}{3 cm}{2.5 cm}{1 cm}{1.5 cm}{1 cm}{1.5 cm}
 \setlength{\parindent}{2em}
 
-\title{Research on heat transfer formula}								% Title
-\author{\emph{Bi qiuyu}}								% Author
+\title{Application of Computer Simulation in Thermodynamics}								% Title
+\author{\emph{Bi Qiuyu}}								% Author
 \date{\today}											% Date
 
 \makeatletter
@@ -39,7 +39,7 @@
 \begin{titlepage}
 	\centering
     \vspace*{0.5 cm}
-    \includegraphics[scale = 0.2]{NJU.jpg}\\[1.0 cm]	% University Logo
+    \includegraphics[scale = 0.2]{NJU.jpg}\\[0.8 cm]	% University Logo
     \textsc{\LARGE Nanjing University}\\[2.0 cm]	% University Name
     \textsc{\large 24020010B}\\[0.5 cm]				% Course Code
 	\textsc{\large University Physics \uppercase\expandafter{\romannumeral2}}\\[0.5 cm]				% Course Name
@@ -62,7 +62,7 @@
 		\end{flushright}
 	\end{minipage}\\[2 cm]
 	
-	{\large \thedate}\\[2 cm]
+	{\large \thedate}\\[1.5 cm]
  
 	\vfill
 	
@@ -193,7 +193,7 @@ In the construction of the model, I only consider heat transfer heat transfer, r
 
 
 \section{Dynamic Programming}
-\indent Dynamic programming is one way to solve the optimization problem of multi-stage problem process. The basic content is: properly select the state variables, decision variables to define the optimal index function, and decompose the problem to be solved into a plurality of interrelated stages with a chain structure, that is, decomposed into multiple sub-problems $P_i (1 \leq i \leq n)$ is denoted as $P = P_1 + P_2 + \cdots + P_n$. For a given phase state, the optimal solution $P_k max$ of these subproblems $P_k$ is solved first, then according to each $P_{k}$ The solution of $P_{k}max$ is to solve the optimal solution $Pmax$ of $P$. That is, $Pmax = P_1 max + P_2 max + \cdots + P_n max$\cite{sakoe1978dynamic}.
+\indent To solve the distribution of temperature by time $t$ we need to use dynamic programming, dynamic programming is one way to solve the optimization problem of multi-stage problem process. The basic content is: properly select the state variables, decision variables to define the optimal index function, and decompose the problem to be solved into a plurality of interrelated stages with a chain structure, that is, decomposed into multiple sub-problems $P_i (1 \leq i \leq n)$ is denoted as $P = P_1 + P_2 + \cdots + P_n$. For a given phase state, the optimal solution $P_k max$ of these subproblems $P_k$ is solved first, then according to each $P_{k}$ The solution of $P_{k}max$ is to solve the optimal solution $Pmax$ of $P$. That is, $Pmax = P_1 max + P_2 max + \cdots + P_n max$\cite{sakoe1978dynamic}.
 It is said that the solution process of each $P_k max$ is related to time $t$, and the solution process satisfies the optimization principle\cite{bertsekas2005dynamic}.\\
 \indent Assume that the initial temperatures of $\xi_2 , \xi_3 , \xi_4 , \xi_5$ are both $37^{o}C$, ie $T_{2i} = T_{3i} = T_{4i} = T_{5i} = 37^{o}C$. Suppose that at $t_k$ , I know the temperature
 The specific value of $T_i (i = 1, 2, 3, 4, 5, 6)$ (that is, the state in the dynamic programming algorithm, that is, the state in $P_k$ is $S_k$ ), and the heat flowing into $\xi_i$ is $Q_i$ (Because it involves the heat absorption of human skin, I abstract people into another material, assuming human thermal conductivity is $\lambda_5$ ), I can get:
